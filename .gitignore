@@ -1,0 +1,7 @@
+.nova/
+
+assets/css/byji.css.map
+assets/css/byji.scss
+assets/css/partials/**
+
+**/.DS_Store

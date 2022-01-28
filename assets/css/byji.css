@@ -1,0 +1,191 @@
+/* colors */
+:root {
+  --brand-hue: 233;
+  --color-bg: hsl(28, 100%, 94%);
+  --color-logo: hsl(var(--brand-hue), 40%, 30%);
+  --color-text: hsl(var(--brand-hue), 20%, 30%);
+  --color-footer-bg: hsl(var(--brand-hue), 40%, 27%);
+  --color-footer-text: hsl(var(--brand-hue), 100%, 98%);
+  --color-link: hsl(var(--brand-hue), 20%, 30%);
+  --color-button-bg: hsl(var(--brand-hue), 45%, 30%);
+  --color-button-bg-hover: hsl(var(--brand-hue), 45%, 40%);
+  --color-button-text: hsl(var(--brand-hue), 100%, 94%);
+  --color-button-bg-secondary: hsl(var(--brand-hue), 70%, 86%);
+  --color-button-bg-secondary-hover: hsl(var(--brand-hue), 73%, 83%);
+  --color-button-text-secondary: hsl(var(--brand-hue), 20%, 30%);
+}
+
+/* Type */
+:root {
+  --font: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: var(--color-text);
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  margin-block-start: 0px;
+  margin-block-end: 1rem;
+}
+
+a {
+  color: var(--color-link);
+}
+
+main p {
+  margin-block-start: 0em;
+  margin-block-end: 2rem;
+}
+
+main p:last-of-type {
+  margin-block-end: 0em;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo-fill {
+  fill: var(--color-logo);
+}
+
+a.button {
+  background: var(--color-button-bg);
+  color: var(--color-button-text);
+  padding: 8px 16px;
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+a.button:hover {
+  background: var(--color-button-bg-hover);
+}
+
+a.button--secondary {
+  background: var(--color-button-bg-secondary);
+  color: var(--color-button-text-secondary);
+}
+
+a.button--secondary:hover {
+  background: var(--color-button-bg-secondary-hover);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  max-width: 1000px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  padding-inline-start: 0px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font);
+  margin: 0px;
+}
+
+footer {
+  background: var(--color-footer-bg);
+  padding: 50px;
+  margin: 50px 0px 0px 0px;
+}
+
+footer > * {
+  display: grid;
+  grid: auto/1fr 1fr 1fr;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav.footer {
+  display: block;
+}
+
+nav.footer ul {
+  display: block;
+}
+
+footer h2 {
+  font-size: 1rem;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p,
+footer a {
+  color: var(--color-footer-text);
+}
+
+/*# sourceMappingURL=byji.css.map */
