@@ -84,6 +84,27 @@ main p:first-of-type {
   margin-block-end: 2rem;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+}
 .logo {
   width: 100px;
 }
@@ -142,12 +163,22 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  header {
+    padding: 1.5rem;
+  }
+}
 main {
   padding: 0rem 3rem 3rem 3rem;
   max-width: 1000px;
   margin: auto;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  main {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
 body {
   background: var(--color-bg);
   color: var(--color-text);
@@ -168,6 +199,13 @@ body {
   object-fit: cover;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  .gallery {
+    grid: auto/1fr;
+    gap: 20px;
+    margin: 1.5rem auto 0rem;
+  }
+}
 footer {
   background: var(--color-footer-bg);
   padding: 3rem;
@@ -186,6 +224,12 @@ footer h6,
 footer p,
 footer a {
   color: var(--color-footer-text);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  footer {
+    padding: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=byji.css.map */
